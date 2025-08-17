@@ -189,3 +189,194 @@ and I am following html and css book by "Jon Duckett-->
 </body>
 
 </html>
+
+<!DOCTYPE html>
+
+<!--This is the structure of how to structure a webpage
+and I am following html and css book by "Jon Duckett-->
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>This is the Title of the page.</title>
+ 
+</head>
+
+<!--This is the main content area-->
+
+<body>
+  <h1>This is the Main Heading.</h1>
+  <p>This text is right under the main heading.<br> I might be an introduction or something explaining the webpage. <br> It may also be split up into several sub-headings.</p>
+  <h2>This is a sub-heading</h2>
+  <p>Many long articles have sub-headings so to help you follow the structure of what is being written. There may even be sub-headings (or lower-level headings.)</p>
+  <h3>This is another sub-heading</h3>
+  <p>Headings go from h1 to h6.</p>
+  
+  <!--These are structural markups-->
+  
+  <h2>These are structural Markups.</h2>
+  <p>This is <b>BOLD</b> text.</p>
+  <p>This is how you would make a word <i>Italic</i> in HTML.</p>
+  <p>Today is 8<sup>th</sup> of August 2025.</p>
+  <p>The amount of CO<sub>2</sub> in the atmosphere grew by 2ppm in 2009<sub>1</sub>.</p>
+  <p>This is a line break under this sentence.</p>
+  <hr />
+  
+  <!--These are semantic markups.-->
+  
+  <h2>These are Semantic Markups.</h2>
+  <p>This is an example of the <strong>Strong</strong> element.</p>
+  <p>The <strong>"Strong"</strong> element is another way of making and element <b>"Bold"</b>.</p>
+  <p>You can also add an <em>Emphasis</em> to a sentence.</p>
+  
+  <!--These are two different ways to do quotation in HTML-->
+  
+  <h5>Below is how you can do quotations in HTML.</h5>
+  <blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
+    <p>Did you ever stop to think, and forget to start again?</p>
+  </blockquote>
+  <p>As A.A. Milne said, <q>Some people talk to animals. Not many listen though. That's the problem</q></p>
+
+  <!--This is how to do abbreviation and acronyms-->
+  
+  <h5>These are ABBREVIATIONS & ACRONYMS.</h5>
+  <p><abbr title="Professor">Prof</abbr> Stephen Hawking is a theoretical physicist and cosmologist.</p>
+  <p><abbr title="National Aeronautics and Space Administration">NASA</abbr> do some crazy space stuff.</p>
+  
+  <!--This is how to do citations and definitions-->
+  
+  <h5>These  are CITATIONS & DEFINITIONS.</H5>
+  <p><cite>A brief History of Time</cite> by Stephen Hawking has sold over ten million copies worldwide.</p>
+  <p>A <dfn>black hole</dfn> is a region of space from which nothing, not even light, can escape.</p>
+  
+  <!--This is how you would add the author contact details-->
+  
+  <h5>The address element is used to contain details of the Author.</h5>
+  <address>
+    <p><a href="mailto:homer@example.org">homer@example.org</a></p>
+    <p>742 Evergreen Terrace. Anyplace USA.</p>
+    
+  <!--This is how you can make changes to the content on the page-->
+    
+    <h5>You can make changes on the page using Insert, Delete and Strike-through elements.</h5>
+    <p>It was the <del>worst</del> <ins>best</ins> idea she ever had</p>
+    <p>Laptop computer:</p>
+    <p><s>Was $995</s></p>
+    <p>Now only $375</p>
+    <hr>
+    
+    <!--This is how you can do different types of list-->
+    
+    <h2>There are 4 types of lists that you can use in HTML</h2>
+    
+    <!--This is an ordered list. (also called a Numbered list)-->
+    
+      <ol>
+        <li>Numbered lists</li>
+        <li>Bullet lists</li>
+        <li>Definition lists</li>
+        <li>Nested Lists</li>
+    </ol>
+    <p>Above is an example of a Numbered list (OL: ordered list)<br>And below is an example of an UnOrdered List (UL) which makes a bullet point.</p>
+    
+    <!--This is an Un Ordered List (Bullet Point)-->
+    
+    <ul>
+      <li>Main Heading</li>
+      <li>Sub-Headings</li>
+      <li>Structural Markups</li>
+      <li>Semantic Markups</li>
+      <li>Abbreviation and Acronyms</li>
+      <li>Citations and Definitions</li>
+      <li>The Address element</li>
+    </ul>
+
+    <!--This is how to create a Definition List.
+        <dl> is used to create the definition list.
+        <dt> is used to contain the term being defined.
+        <dd< is used to contain the definition-->
+      
+     <h5>This is an example of a Defintion List.</h5>
+    <dl>
+      <dt>Sashimia</dt>
+      <dd>Sliced raw fish that is served with condiments such as<br>
+        shredded daikon radish or ginger root. wasabi and soy sauce</dd>
+      <dt>Scale</dt>
+      <dd>A device used to accurately measure the weight of ingredients</dd>
+      <dd>A technique by which the scale are removed from the skin of a fish</dd>
+      <dt>Scamorze</dt>
+      <dt>Scamorzo</dt>
+      <dd>An Italian cheese usaully made from whole cow's milk (although it was traditionally)<br>made from buffalo milk</dd>
+    </dl>
+      
+    <!--This is how to create a Nested list.-->
+      
+    <h5>This is an example of a Nested List.</h5>
+    <ul>
+      <li>Mousses</li>
+      <li>Pastries
+        <ul>
+          <li>Croissant</li>
+          <li>Mille-feuille</li>
+          <li>Palmer</li>
+          <li>Proiterole</li>
+        </ul>
+      </li>
+      <li>Tarts</li>
+    </ul>
+    <hr>
+      
+    <!--This section is how to add links to your page in html-->
+      
+    <h2>This section will show how to add different kinds of links.</h2>
+    <p>Links are created using the <a> element which has an attribute called <em>href</em>.<br>Users can click on anything that appears between the opening <a> tag and the closing </a><br>tag and will be taken to the page specified in the <em>href</em> attribute.</p>
+      <p>When you link to a different website, the value of the href attribute<br>
+        will be the full web address for the site. Which is known as an <b>absolute</b> URL.</p>
+      
+        <!--Linking to other sites from your webpage-->
+      
+      <h5>Linking to other sites</h5>
+      <p>Movie Review:
+        <ul>
+          <li><a href="http://www.empireonline.com">
+            Empire</a></li>
+          <li><a href="http://www.metacritic.com">
+            Metacritic</a></li>
+          <li><a href="http://www.rottentomatoes.com">
+            Rotten Tomatoes</a></li>
+          <li><a href="http://variety.com">
+            Variety</a></li>
+    </ul>
+  </p>
+      <p>URL stands for Uniform Resource Locator. Every web page has it's own URL.<br>
+        This would be the web address that you would type in the browser if you wanted to <br>
+        visit that specific page.</p>
+    
+       <!--Links to other pages on the same site-->
+       <h5>Linking to other pages on the same site</h5>
+       <ul>
+         <li><a href="about.html">About Us</a></li>
+         <li><a href="contact.html">Contact</a></li>
+         <li><a href="services.html">Services</a></li>
+       </ul>
+    
+    <!--Email links are the same as Author details above-->
+    
+    <h5>Email links</h5>
+    <p>Email links are the same as Author's details above</p>
+    
+       <p><a href="mailto:homer@example.org">homer@example.org</a></p>
+    <p>If you want a link to open in a new window use the "target" element.</p>
+    <a href="http://www.imdb.com" target="_blank" rel="noopener">
+      Internet Movie Database</a> (opens in new window)
+    <p>To link to another page, you can use an <b>anchor</b>.
+    <a href="Linking1.html#top">Linking HTML Documents</a>
+    <p>This is a link to my photos page</p>
+    <a href="images.html">Photos</a>
+
+</body>
+
+</html>
